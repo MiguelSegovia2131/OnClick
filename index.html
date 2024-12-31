@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento OnClick</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Petlopedia</h1>
+        <nav>
+            <div class="busquedaMascota">Buscar mascotas</div>
+            <button class="botonIniciarSesion" onclick="entrarSalir(this)">Iniciar Sesion</button>
+        </nav>
+    </header>
+    <div class="bloqueAbajo">
+        <section>
+            <div  class="razas">
+                <h2>Gato Atigrado</h2>
+                <span>sustantivo</span>
+                <p>Plural: Gatos Atigrados
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div>
+                    <p><span class="numero">0</span> me gusta(s)
+                    </p>
+                    <button class="botonMeGusta" onclick="meGusta1()">me gusta</button>
+                </div>
+            </div>
+            <div  class="razas">
+                <h2>Golden Retriever</h2>
+                <span>sustantivo</span>
+                <p>Plural: Golden Retrievers
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quo?
+                </p>
+                <div>
+                    <p>
+                        <span class="numero2">0</span> me gusta(s)
+                    </p>
+                    <button class="botonMeGusta" onclick="meGusta2()">me gusta</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Petlopedia esta definida por TI</p>
+            <button class="botonAgregarDefinicion" onclick="eliminar(this)">Agregar definicion</button>
+        </footer>
+    </div>
+    <script src="js/eventoOnClick.js" defer></script>
+</body>
+</html>

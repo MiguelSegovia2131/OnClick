@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: rgba(134, 123, 123, 0.538);
+    padding: 15px;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    border: 1px solid black;
+    height: 50px;
+    padding: 10px;
+    width: 500px;
+    justify-items: center;
+    margin: 5px;
+}
+
+.busquedaMascota {
+    margin: 0 170px;
+    border: 1px solid black;
+    padding: 2px 400px;
+    background-color: white;
+    color: darkgray;
+}
+
+.botonIniciarSesion {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.bloqueAbajo {
+    display: flex;
+    margin: 30px;
+}
+
+.razas {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 900px;
+}
+
+.botonAgregarDefinicion {
+    background-color: rgb(16, 163, 16);
+    color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.botonMeGusta {
+    background-color: rgb(238, 238, 157);
+    padding: 3px;
+    cursor: pointer;
+}
+
